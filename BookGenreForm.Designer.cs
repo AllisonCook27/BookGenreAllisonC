@@ -38,7 +38,9 @@
             this.lblBook1 = new System.Windows.Forms.Label();
             this.lblBook2 = new System.Windows.Forms.Label();
             this.lblBook3 = new System.Windows.Forms.Label();
+            this.grbBookTitles = new System.Windows.Forms.GroupBox();
             this.mnuBooks.SuspendLayout();
+            this.grbBookTitles.SuspendLayout();
             this.SuspendLayout();
             // 
             // mnuBooks
@@ -65,28 +67,28 @@
             // mniFantasy
             // 
             this.mniFantasy.Name = "mniFantasy";
-            this.mniFantasy.Size = new System.Drawing.Size(116, 22);
+            this.mniFantasy.Size = new System.Drawing.Size(152, 22);
             this.mniFantasy.Text = "Fantasy";
             this.mniFantasy.Click += new System.EventHandler(this.mniFantasy_Click);
             // 
             // mniHorror
             // 
             this.mniHorror.Name = "mniHorror";
-            this.mniHorror.Size = new System.Drawing.Size(116, 22);
+            this.mniHorror.Size = new System.Drawing.Size(152, 22);
             this.mniHorror.Text = "Horror";
             this.mniHorror.Click += new System.EventHandler(this.mniHorror_Click);
             // 
             // mniMystery
             // 
             this.mniMystery.Name = "mniMystery";
-            this.mniMystery.Size = new System.Drawing.Size(116, 22);
+            this.mniMystery.Size = new System.Drawing.Size(152, 22);
             this.mniMystery.Text = "Mystery";
             this.mniMystery.Click += new System.EventHandler(this.mniMystery_Click);
             // 
             // mniAction
             // 
             this.mniAction.Name = "mniAction";
-            this.mniAction.Size = new System.Drawing.Size(116, 22);
+            this.mniAction.Size = new System.Drawing.Size(152, 22);
             this.mniAction.Text = "Action";
             this.mniAction.Click += new System.EventHandler(this.mniAction_Click);
             // 
@@ -104,7 +106,7 @@
             // 
             this.lblBook1.AutoSize = true;
             this.lblBook1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBook1.Location = new System.Drawing.Point(-2, 108);
+            this.lblBook1.Location = new System.Drawing.Point(12, 22);
             this.lblBook1.Name = "lblBook1";
             this.lblBook1.Size = new System.Drawing.Size(0, 20);
             this.lblBook1.TabIndex = 2;
@@ -113,7 +115,7 @@
             // 
             this.lblBook2.AutoSize = true;
             this.lblBook2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBook2.Location = new System.Drawing.Point(12, 152);
+            this.lblBook2.Location = new System.Drawing.Point(12, 50);
             this.lblBook2.Name = "lblBook2";
             this.lblBook2.Size = new System.Drawing.Size(0, 20);
             this.lblBook2.TabIndex = 3;
@@ -122,10 +124,23 @@
             // 
             this.lblBook3.AutoSize = true;
             this.lblBook3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBook3.Location = new System.Drawing.Point(12, 172);
+            this.lblBook3.Location = new System.Drawing.Point(12, 82);
             this.lblBook3.Name = "lblBook3";
             this.lblBook3.Size = new System.Drawing.Size(0, 20);
             this.lblBook3.TabIndex = 4;
+            // 
+            // grbBookTitles
+            // 
+            this.grbBookTitles.Controls.Add(this.lblBook1);
+            this.grbBookTitles.Controls.Add(this.lblBook3);
+            this.grbBookTitles.Controls.Add(this.lblBook2);
+            this.grbBookTitles.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grbBookTitles.Location = new System.Drawing.Point(26, 94);
+            this.grbBookTitles.Name = "grbBookTitles";
+            this.grbBookTitles.Size = new System.Drawing.Size(207, 115);
+            this.grbBookTitles.TabIndex = 5;
+            this.grbBookTitles.TabStop = false;
+            this.grbBookTitles.Text = "Book Titles";
             // 
             // frmBookGenre
             // 
@@ -133,9 +148,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(220)))), ((int)(((byte)(252)))));
             this.ClientSize = new System.Drawing.Size(284, 261);
-            this.Controls.Add(this.lblBook3);
-            this.Controls.Add(this.lblBook2);
-            this.Controls.Add(this.lblBook1);
+            this.Controls.Add(this.grbBookTitles);
             this.Controls.Add(this.lblBookGenre);
             this.Controls.Add(this.mnuBooks);
             this.MainMenuStrip = this.mnuBooks;
@@ -143,6 +156,8 @@
             this.Text = "Book Genres by Allison C";
             this.mnuBooks.ResumeLayout(false);
             this.mnuBooks.PerformLayout();
+            this.grbBookTitles.ResumeLayout(false);
+            this.grbBookTitles.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -160,6 +175,7 @@
         private System.Windows.Forms.Label lblBook1;
         private System.Windows.Forms.Label lblBook2;
         private System.Windows.Forms.Label lblBook3;
+        private System.Windows.Forms.GroupBox grbBookTitles;
     }
 }
 
