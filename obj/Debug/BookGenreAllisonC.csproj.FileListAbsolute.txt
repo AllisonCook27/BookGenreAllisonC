@@ -1,0 +1,9 @@
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 1 (Problem Solving)\BookGenreAllisonC\BookGenreAllisonC\bin\Debug\BookGenreAllisonC.exe.config
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 1 (Problem Solving)\BookGenreAllisonC\BookGenreAllisonC\bin\Debug\BookGenreAllisonC.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 1 (Problem Solving)\BookGenreAllisonC\BookGenreAllisonC\bin\Debug\BookGenreAllisonC.pdb
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 1 (Problem Solving)\BookGenreAllisonC\BookGenreAllisonC\obj\Debug\BookGenreAllisonC.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 1 (Problem Solving)\BookGenreAllisonC\BookGenreAllisonC\obj\Debug\BookGenreAllisonC.frmBookGenre.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 1 (Problem Solving)\BookGenreAllisonC\BookGenreAllisonC\obj\Debug\BookGenreAllisonC.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 1 (Problem Solving)\BookGenreAllisonC\BookGenreAllisonC\obj\Debug\BookGenreAllisonC.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 1 (Problem Solving)\BookGenreAllisonC\BookGenreAllisonC\obj\Debug\BookGenreAllisonC.exe
+N:\StuShare\Semester 2 - Winter 2018\ICS3U Programming\Cook, Allison (s241474)\Unit 1 (Problem Solving)\BookGenreAllisonC\BookGenreAllisonC\obj\Debug\BookGenreAllisonC.pdb

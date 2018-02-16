@@ -27,33 +27,37 @@ namespace BookGenreAllisonC
         private void mniFantasy_Click(object sender, EventArgs e)
         {
             //when this menu item is clicked it changes the book titles
-            lblBook1.Text = "hello";
-            lblBook2.Text = "hello";
-            lblBook3.Text = "hello";
+            lblBookGenre.Text = "Fantasy";
+            lblBook1.Text = "1. A Court of Thorns and Roses";
+            lblBook2.Text = "2. Throne of Glass";
+            lblBook3.Text = "3. hello";
         }
 
         private void mniHorror_Click(object sender, EventArgs e)
         {
             //when this menu item is clicked it changes the book titles
-            lblBook1.Text = "hello";
-            lblBook2.Text = "hello";
-            lblBook3.Text = "hello";
+            lblBookGenre.Text = "Horror";
+            lblBook1.Text = "1. Ms Peregrine's Home for Peculiar Children";
+            lblBook2.Text = "2. IT";
+            lblBook3.Text = "3. Omens";
         }
 
         private void mniMystery_Click(object sender, EventArgs e)
         {
             //when this menu item is clicked it changes the book titles
-            lblBook1.Text = "hello";
-            lblBook2.Text = "hello";
-            lblBook3.Text = "hello";
+            lblBookGenre.Text = "Mystery";
+            lblBook1.Text = "1. hello";
+            lblBook2.Text = "2. hello";
+            lblBook3.Text = "3. hello";
         }
 
         private void mniAction_Click(object sender, EventArgs e)
         {
             //when this menu item is clicked it changes the book titles
-            lblBook1.Text = "hello";
-            lblBook2.Text = "hello";
-            lblBook3.Text = "hello";
+            lblBookGenre.Text = "Action";
+            lblBook1.Text = "1. City of Bones";
+            lblBook2.Text = "2. Possion Princess";
+            lblBook3.Text = "3. Lord of the Rings";
         }
     }
 }

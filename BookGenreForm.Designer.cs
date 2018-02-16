@@ -65,28 +65,28 @@
             // mniFantasy
             // 
             this.mniFantasy.Name = "mniFantasy";
-            this.mniFantasy.Size = new System.Drawing.Size(152, 22);
+            this.mniFantasy.Size = new System.Drawing.Size(116, 22);
             this.mniFantasy.Text = "Fantasy";
             this.mniFantasy.Click += new System.EventHandler(this.mniFantasy_Click);
             // 
             // mniHorror
             // 
             this.mniHorror.Name = "mniHorror";
-            this.mniHorror.Size = new System.Drawing.Size(152, 22);
+            this.mniHorror.Size = new System.Drawing.Size(116, 22);
             this.mniHorror.Text = "Horror";
             this.mniHorror.Click += new System.EventHandler(this.mniHorror_Click);
             // 
             // mniMystery
             // 
             this.mniMystery.Name = "mniMystery";
-            this.mniMystery.Size = new System.Drawing.Size(152, 22);
+            this.mniMystery.Size = new System.Drawing.Size(116, 22);
             this.mniMystery.Text = "Mystery";
             this.mniMystery.Click += new System.EventHandler(this.mniMystery_Click);
             // 
             // mniAction
             // 
             this.mniAction.Name = "mniAction";
-            this.mniAction.Size = new System.Drawing.Size(152, 22);
+            this.mniAction.Size = new System.Drawing.Size(116, 22);
             this.mniAction.Text = "Action";
             this.mniAction.Click += new System.EventHandler(this.mniAction_Click);
             // 
@@ -94,11 +94,11 @@
             // 
             this.lblBookGenre.AutoSize = true;
             this.lblBookGenre.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBookGenre.Location = new System.Drawing.Point(-2, 46);
+            this.lblBookGenre.Location = new System.Drawing.Point(-4, 33);
             this.lblBookGenre.Name = "lblBookGenre";
-            this.lblBookGenre.Size = new System.Drawing.Size(286, 20);
+            this.lblBookGenre.Size = new System.Drawing.Size(259, 20);
             this.lblBookGenre.TabIndex = 1;
-            this.lblBookGenre.Text = "Chose a book genre from the menu bar";
+            this.lblBookGenre.Text = "Chose a book genre from the menu";
             // 
             // lblBook1
             // 
