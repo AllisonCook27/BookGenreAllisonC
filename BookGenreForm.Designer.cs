@@ -115,7 +115,7 @@
             // 
             this.lblBook2.AutoSize = true;
             this.lblBook2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBook2.Location = new System.Drawing.Point(12, 50);
+            this.lblBook2.Location = new System.Drawing.Point(12, 52);
             this.lblBook2.Name = "lblBook2";
             this.lblBook2.Size = new System.Drawing.Size(0, 20);
             this.lblBook2.TabIndex = 3;
@@ -135,9 +135,9 @@
             this.grbBookTitles.Controls.Add(this.lblBook3);
             this.grbBookTitles.Controls.Add(this.lblBook2);
             this.grbBookTitles.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grbBookTitles.Location = new System.Drawing.Point(26, 94);
+            this.grbBookTitles.Location = new System.Drawing.Point(0, 91);
             this.grbBookTitles.Name = "grbBookTitles";
-            this.grbBookTitles.Size = new System.Drawing.Size(207, 115);
+            this.grbBookTitles.Size = new System.Drawing.Size(272, 115);
             this.grbBookTitles.TabIndex = 5;
             this.grbBookTitles.TabStop = false;
             this.grbBookTitles.Text = "Book Titles";
