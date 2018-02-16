@@ -30,7 +30,7 @@ namespace BookGenreAllisonC
             lblBookGenre.Text = "Fantasy";
             lblBook1.Text = "1. A Court of Thorns and Roses";
             lblBook2.Text = "2. Throne of Glass";
-            lblBook3.Text = "3. hello";
+            lblBook3.Text = "3. Red Queen";
         }
 
         private void mniHorror_Click(object sender, EventArgs e)
@@ -46,9 +46,9 @@ namespace BookGenreAllisonC
         {
             //when this menu item is clicked it changes the book titles
             lblBookGenre.Text = "Mystery";
-            lblBook1.Text = "1. hello";
-            lblBook2.Text = "2. hello";
-            lblBook3.Text = "3. hello";
+            lblBook1.Text = "1. Fallen";
+            lblBook2.Text = "2. The Body in the Woods";
+            lblBook3.Text = "3. Paper Towns";
         }
 
         private void mniAction_Click(object sender, EventArgs e)
